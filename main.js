@@ -8,6 +8,6 @@ app.config(function($routeProvider) {
         templateUrl : "about_me.htm"
     })
     .when("/resume", {
-        templateUrl : "resume.pdf"
+        templateUrl : "resume.htm"
     });
 });
