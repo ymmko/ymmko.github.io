@@ -2,7 +2,7 @@ var app = angular.module("ymmkoGitHub", ["ngRoute"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
-        templateUrl : "main.htm"
+        templateUrl : "index.html"
     })
     .when("/about_me", {
         templateUrl : "about_me.htm"

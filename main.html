@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>ymmko | GitHub</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <!-- <link rel='stylesheet' type='text/css' media='screen' href='nothing_yet.css'> -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script><body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+</head>
 <body ng-app="ymmkoGitHub">
-    <a href="#!about_me">About Me</a>
+    <ul class="nav">
+        <li><a href="#!">Home</a></li>
+        <li><a href="#!about_me">About Me</a></li>
+    </ul>
     <div ng-view class="ng-scope"></div>
-
-
     <script src='main.js'></script>
 </body>
 </html>
