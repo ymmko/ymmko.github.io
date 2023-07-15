@@ -16,7 +16,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex-wrap: wrap;
     width: 70%;
     height: 60%;
     background: linear-gradient(to right, #004AAD, #CB6CE6);
@@ -27,6 +27,12 @@ html, body {
 .container img {
     max-width: 100%;
     height: auto;
+}
+
+@media (max-width: 100px) { /* Adjust the width value as needed */
+    .container {
+        height: auto;
+    }
 }
 
 .header {
@@ -42,13 +48,5 @@ html, body {
 
 .header-subtitle {
     font-size: 20px;
-    color: #004AAD;
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
     color: #004AAD;
 }
