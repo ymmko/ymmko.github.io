@@ -13,12 +13,20 @@ html, body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     width: 70%;
     height: 60%;
     background: linear-gradient(to right, #004AAD, #CB6CE6);
     border-radius: 0 70px 0 70px;
     margin-bottom: 5%;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header {
