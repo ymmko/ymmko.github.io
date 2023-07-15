@@ -7,9 +7,6 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-}
-
-body {
     background: linear-gradient(to right, #ffde59, #ff914d);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +17,9 @@ body {
     height: 60%;
     background: linear-gradient(to right, #004AAD, #CB6CE6);
     border-radius: 0 70px 0 70px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
