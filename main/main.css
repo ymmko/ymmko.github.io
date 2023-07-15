@@ -1,5 +1,5 @@
 html, body {
-    height: 100vh;
+    height: 100vh 100%;
     width: 100%;
     margin: 0;
     display: flex;
@@ -13,6 +13,7 @@ html, body {
 }
 
 .container {
+    flex: 1;
     width: 70%;
     height: 60%;
     background: linear-gradient(to right, #004AAD, #CB6CE6);
@@ -22,7 +23,8 @@ html, body {
 
 .header {
     text-align: center;
-    margin-bottom: 70px;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .header-title {
@@ -36,6 +38,9 @@ html, body {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     color: #004AAD;
 }
