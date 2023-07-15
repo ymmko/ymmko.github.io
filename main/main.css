@@ -17,9 +17,7 @@ html, body {
     height: 60%;
     background: linear-gradient(to right, #004AAD, #CB6CE6);
     border-radius: 0 70px 0 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 5%;
 }
 
 .header {
@@ -34,5 +32,10 @@ html, body {
 
 .header-subtitle {
     font-size: 20px;
+    color: #004AAD;
+}
+
+footer {
+    text-align: center;
     color: #004AAD;
 }
