@@ -7,9 +7,24 @@ html, body {
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #ffde59, #ff914d);
+    /*background: linear-gradient(to right, #ffde59, #ff914d);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background: linear-gradient(-45deg, #ffde59, #ff914d, #ffde59, #ff914d);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 /* CV and GitHub container */
@@ -20,7 +35,9 @@ html, body {
     align-items: center;
     width: 70%;
     height: 60%;
-    background: linear-gradient(to right, #004AAD, #CB6CE6);
+    background: linear-gradient(-45deg, #004AAD, #CB6CE6, #004AAD, #CB6CE6);
+    background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
     border-radius: 0 70px 0 70px;
     margin-bottom: 2%;
 }
