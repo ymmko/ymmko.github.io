@@ -28,7 +28,13 @@ html, body {
 .container img {
     max-width: 100%;
     height: auto;
-}  
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
 
 /* Name and Title */
 .header {
