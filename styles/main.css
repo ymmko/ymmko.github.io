@@ -12,6 +12,7 @@ html, body {
     background-attachment: fixed;
 }
 
+/* CV and GitHub container */
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,6 +30,7 @@ html, body {
     height: auto;
 }  
 
+/* Name and Title */
 .header {
     text-align: center;
     margin-top: 2%;
@@ -43,4 +45,11 @@ html, body {
 .header-subtitle {
     font-size: 20px;
     color: #004AAD;
+}
+
+/* Language option */
+.language-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
