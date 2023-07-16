@@ -43,7 +43,7 @@ html, body {
 .container img {
     max-width: 100%;
     height: auto;
-    position: relative;
+    object-fit: contain;
 }
 
 @media (max-width: 768px) {
