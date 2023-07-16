@@ -56,18 +56,17 @@ html, body {
     text-align: center;
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 70%;
 }
 
 .header-title {
     font-size: 46px;
     color: #004AAD;
-    width: 70%;
 }
 
 .header-subtitle {
     font-size: 20px;
     color: #004AAD;
-    width: 70%;
 }
 
 a {
