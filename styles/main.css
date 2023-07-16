@@ -38,6 +38,7 @@ html, body {
 	animation: gradient 15s ease infinite;
     border-radius: 0 70px 0 70px;
     margin-bottom: 2%;
+    flex-grow: 1;
 }
   
 .container img {
