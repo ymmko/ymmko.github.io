@@ -31,7 +31,7 @@ html, body {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     justify-items: center;
     align-items: center;
-    width: 70%;
+    width: 90%;
     height: 60%;
     background: linear-gradient(-45deg, #004AAD, #CB6CE6, #004AAD, #CB6CE6);
     background-size: 400% 400%;
@@ -65,8 +65,14 @@ html, body {
 }
 
 .header-subtitle {
-    font-size: 20px;
+    font-size: 22px;
     color: #004AAD;
+}
+
+.text-area {
+    font-size: 18px;
+    color: #004AAD;
+    text-align: left;
 }
 
 a {
