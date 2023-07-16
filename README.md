@@ -1,2 +1,2 @@
-# ymmko.com | ymmko.github.io
-Personal website
+# Personal website
+Accessible via https://ymmko.com/ or https://ymmko.github.io/
