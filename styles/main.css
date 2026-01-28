@@ -84,3 +84,27 @@ a {
     text-decoration: none;
     color: #004AAD;
 }
+
+.contact-me-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 2%;
+}
+
+.cmf {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cmf-btn {
+    background-color: #004AAD;
+    color: #ffde59;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
